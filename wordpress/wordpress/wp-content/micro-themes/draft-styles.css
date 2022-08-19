@@ -1,0 +1,15 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Post 1 **/
+#post-1 {
+	
+}
+
+/** Geral >> Block 2 wp block search button **/
+#block-2 .wp-block-search__button {
+	box-shadow: 0 3px 3px 0 rgb(100, 104, 107) !important;
+}
+
