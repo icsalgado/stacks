@@ -40,6 +40,11 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define( 'DB_COLLATE', '' );
 
+
+
+
+
+
 /**#@+
  * Chaves únicas de autenticação e salts.
  *
@@ -85,7 +90,10 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define ( 'WP_DEBUG', true );
+define ( 'WP_DEBUG_LOG', true ); // o log fica em wp-content
+define ( 'WP_DEBUG_DISPLAY', false ); // não mostra no site em produção
+define ( 'SCRIPT_DEBUG', true ); // evita que o wordpress use versões minificadas de scripts
 
 /* Adicione valores personalizados entre esta linha até "Isto é tudo". */
 
