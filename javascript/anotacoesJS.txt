@@ -1,0 +1,25 @@
+Gyn cursos/boson
+
+Originalmente chamada de LiveScript e iniciou no Netscape Navigator 2
+
+1997 padronizado pela ECMA international - ECMAScript
+
+dentro do html
+	<script type="text/javascript" src="externo.js">
+	
+	</script>
+	
+Tipagem dinâmica
+	
+Tipos de dados
+	numericos
+		inteiros
+		ponto flutuante
+	string
+		"" ou ''
+	booleano
+		true
+		false
+	array
+	objeto
+	
