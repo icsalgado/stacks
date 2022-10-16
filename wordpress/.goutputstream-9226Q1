@@ -1,0 +1,110 @@
+Instalando o wordpress em localhost com xampp tem que estar com permissão 777 -R na /opt/ (no ubuntu)
+
+sudo chmod 777 -R /opt/
+
+em alguns caso para remover a indicação de que precisa do usuario e senha de FTP tem que inserir no wp-config.php esse define
+
+define('FS_METHOD','direct');
+
+### CEV wordpress 1 ###
+***** Cores *****
+https://www.colourlovers.com/
+https://color.adobe.com/create/color-wheel
+#696D7D
+#6F9283
+#66FF75
+#F0DCCA
+#0C0F0A
+
+***** Fontes *****
+Titulo: Rakkas
+Conteudo: PT Mono
+
+***** Imagens *****
+https://stock.adobe.com/br/
+https://www.pexels.com/pt-br/
+https://www.shutterstock.com
+
+***** icones *****
+https://fontawesome.com/
+
+### GYN cursos wordpress ###
+
+Atualizar tabelas após migração
+UPDATE wp_posts SET post_content = replace(post_content, 'http://[url antiga]', 'http://[url nova]');
+
+UPDATE wp_posts SET guid = replace(guid, 'http://[url antiga]', 'http://[url nova]');
+
+### cursos7 wp-cli ###
+
+sudo apt install php-cli
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+php wp-cli.phar --info
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
+
+wp cli version
+
+https://developer.wordpress.org/cli/commands/
+
+Error: Parece que em sua instalação do PHP está faltando a extensão MySQL, que é requisitada pelo WordPress.
+sudo apt install php-mysql
+
+Error: Erro ao estabelecer uma conexão com o banco de dados.
+Trocar no wp-config.php o host de localhost para o ip 127.0.0.1
+
+wp plugin	list
+		activate [nome do plugin]
+		deactivate [nome do plugin]
+		delete [nome do plugin]
+		install [nome do plugin] --activate
+wp theme	list
+		get [nome do tema]
+wp post		list
+		get [id do post]
+wp export >> exporta para wxr [como um xml porém para wordpress] - Ele não exporta os arquivos de configuração nem anexos
+
+wp import [nome do arquivo] --authors=skip >> importa o arquivo exportado
+	vai pedir para instalar o plugin de importação
+		wp plugin install wordpress-importer --activate
+		
+wp db check
+	talvez precise instalar antes o mysqlcheck 
+		sudo apt install mysql-client-core-8.0
+wp db cli
+	entra no mysql
+wp db query "comando sql"
+wp db search [termo a ser buscado]
+wp db export >> exporta o banco em .sql
+wp db import [nome do arquivo .sql]
+
+wp eval 'linha php;'
+	para executar php
+		--skip-wordpress >> para não carregar o wordpress
+		
+### C7 wordpress Debug ###
+
+Por que debugar
+	Buscar infos detalhadas sobre erros
+	Vasto universo de código
+	Sistema próprio de debug do wp
+	Interoperabilidade
+	Ganho de tempo x perda de tempo
+wp debug no wp-config.php
+	define ( 'WP_DEBUG', true );
+	define ( 'WP_DEBUG_LOG', true ); // o log fica em wp-content
+	define ( 'WP_DEBUG_DISPLAY', false ); // não mostra no site em produção
+	define ( 'SCRIPT_DEBUG', true ); // evita que o wordpress use versões minificadas de scripts
+	
+Plugin query monitor
+	Recomendado para momentos específicos de debug
+Plugin debug bar - plugin mais simples
+
+Performance
+press
+	cron de scripts - pode gerar alto consumo
+		Plugin WP Controlo
+			eventos cron
+			
+Lendo logs
+	localizar datas e realizar buscas
