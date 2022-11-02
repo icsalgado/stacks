@@ -1,5 +1,5 @@
 Introdução ao PHP
-Tipos de variáveis em PHP
+* Tipos de variáveis em PHP
 Estruturas condicionais e de repetição em PHP
 Formulários com condicionais e sessões com PHP
 Conhecendo funções e validações de dados com PHP
