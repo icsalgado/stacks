@@ -1,0 +1,11 @@
+Introdução ao PHP
+Tipos de variáveis em PHP
+Estruturas condicionais e de repetição em PHP
+Formulários com condicionais e sessões com PHP
+Conhecendo funções e validações de dados com PHP
+Introdução ao ecossistema e documentação PHP
+Programação orientada a objeto com PHP
+Orientação a objetos, exceções e banco de dados php
+Debug e tratamento de excessões em PHP
+Gerenciamento de pacotes em PHP com composer
+Desenvolvimento avançado em PHP

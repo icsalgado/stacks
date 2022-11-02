@@ -1,0 +1,94 @@
+
+
+### Tipos de variaveis - Willian Bruno
+
+O PHP não é tipado e termina com ponto e virgula
+	declaração da variavel
+		$variavel = 'string';
+		$variavel = 50;
+		#variavel = 5.5;
+		
+		echo "valor da variável $variavel";
+			exibe um texto concatenado com a variavel
+	declaracao de constantes
+		define("constanteNome", "constateValor");
+			ela só pode ser definida uma vez no algoritmo
+
+Estrutura
+<?php
+
+
+?>// se não existir mais nada depois a tag php não precisa ser fechada
+
+Strings
+	pode ser usada aspas simples ou dupla
+	pode incorporar texto, numero e html
+Integer ou numericos
+	pode ser integer ou long, positivos e negativos
+		var_dump($numero);
+			retorna também o tipo da variável
+Datas
+	date("d");
+		dia atual
+	date("m");
+		mês
+		date("M");
+			iniciais do mês
+	date("y");
+		ano
+		date("Y");
+			ano completo
+	date("h:i:s");
+		hora minuto e segundo
+		date("H");
+			hora no formato 23
+			
+			para a hora precisa é necessário setar a timezone
+			date_default_timezone_set('America/Sao_Paulo');
+			
+Arrays
+	$vetor = array("PHP", "HTML", "CSS");
+		para exibir
+			print_r($vetor[1]);
+			
+print X echo
+	print só permite uma string por vez
+	
+Variaveis locais
+	precisam ser retornadas na função
+		return $varLocal;
+Variaveis globais
+	precisam ser chaamas dentro de uma função
+		glocal $varGlobal;	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
