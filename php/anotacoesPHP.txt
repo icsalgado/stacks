@@ -1,4 +1,10 @@
-
+### Introdução ao PHP - Eduardo Cesar
+	A linguagem PHP
+	Os CMSs
+	Os frameworks
+	A comunidade
+	Documentação
+	Primeiros passos
 
 ### Tipos de variaveis - Willian Bruno
 
@@ -61,9 +67,27 @@ Variaveis globais
 	precisam ser chaamas dentro de uma função
 		glocal $varGlobal;	
 			
-			
-			
-			
+### Estruturas condicionais e de repetição em PHP - Laíque Santana
+	Operadores lógicos
+		E - and - &&
+		OU - or - ||
+		XOR - xor (se um dos dois forem verdadeiros exeto ambos)
+		Não - !
+	Operadores de comparação
+		== desconsidera o tipo
+		=== considera o tipo
+		!= diferente
+		!== diferente considerndo o tipo
+		<> diferente desconsidera o tipo
+		>
+		>=
+		<
+		<=
+	Condicionais
+	if
+	else
+	else if
+	switch case
 			
 			
 			
