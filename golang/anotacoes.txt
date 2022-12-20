@@ -1,0 +1,19 @@
+TREINAWEB Curso Go Básico
+
+Ambiente Linux Ubuntu
+
+Usando VScode
+
+Instalado go da ferramenta ubuntu software
+
+func é um metodo/função
+
+	O Go é um linguagem mista em relação a su a estrutura
+
+
+
+
+
+
+
+TW-GoBasico -  - Exercicios unidade 2
