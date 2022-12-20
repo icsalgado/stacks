@@ -1,0 +1,14 @@
+TREINAWEB Curso Go Básico
+
+Ambiente Linux Ubuntu
+
+Usando VScode
+
+Instalando linguagem e compilador
+apt install golang-go
+apt install gccgo-go
+
+
+func é um metodo
+
+
