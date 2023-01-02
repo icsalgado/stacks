@@ -89,9 +89,10 @@ Variaveis globais
 	else if
 	switch case
 			
-			
-			
-			
+### Formulários com condicionais e sessões com PHP
+Verbos HTTP  que vamos usar
+	GET - trafega dados na header da requisição
+	POST - trafega dados no corpo da requisição
 			
 			
 			
