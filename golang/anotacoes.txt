@@ -8,12 +8,20 @@ Instalado go da ferramenta ubuntu software
 
 func é um metodo/função
 
-	O Go é um linguagem mista em relação a su a estrutura
+	O Go é um linguagem mista em relação a sua estrutura
+
+rodar o programa
+	go run main.go
+	
+criar uma variavel
+	var [nome da variavel] [tipo da varivael] = [valor da variavel]
+
+tipo int ou uint vai ter precisão dependo da arquitetura do SO, 32 ou 64 bits
+
+Numeros complexos podem ser declarados em variaveis com tipo complex32, complex64, complex128, sendo o float e os números imaginarios 
+
+a tipagem é forte
 
 
 
-
-
-
-
-TW-GoBasico -  - Exercicios unidade 2
+TW-GoBasico - inferencia de tipo, formas de declarar variaveis e constantes - 3 Variaveis e tipos de dados
