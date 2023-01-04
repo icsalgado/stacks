@@ -95,9 +95,9 @@ Verbos HTTP  que vamos usar
 	POST - trafega dados no corpo da requisição
 			
 			
-			
-			
-			
+
+
+DIO - Introdução a verbos HTTP para formulários - Formulários com condicionais e sessões com PHP
 			
 			
 			
