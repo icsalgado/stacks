@@ -24,4 +24,6 @@ a tipagem é forte
 
 
 
-TW-GoBasico - inferencia de tipo, formas de declarar variaveis e constantes - 3 Variaveis e tipos de dados
+
+
+TW-GoBasico - Operadores e conversao de tipos - 4 Operadores Atirmeticos
